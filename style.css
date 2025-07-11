@@ -1,0 +1,91 @@
+body {
+    background-color: #fdd8d8;
+    font-family: Arial, sans-serif;
+}
+
+.form-container {
+    width: 50%;
+    margin: 30px auto;
+    background-color: #fdd8d8;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #aaa;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 26px;
+    color: #000;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="password"],
+input[type="email"],
+select,
+textarea {
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #999;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.name-fields,
+.dob-fields,
+.mobile-fields,
+.gender,
+.departments {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.name-fields input,
+.dob-fields input {
+    flex: 1;
+}
+
+.dob-format {
+    font-size: 12px;
+    color: #555;
+}
+
+.mobile-fields span {
+    padding: 8px;
+    background: #ddd;
+    border: 1px solid #999;
+    border-radius: 4px 0 0 4px;
+}
+
+.mobile-fields input {
+    flex: 1;
+    border-radius: 0 4px 4px 0;
+    border-left: none;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #444;
+}
