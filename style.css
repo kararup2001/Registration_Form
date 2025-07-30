@@ -75,8 +75,17 @@ textarea {
     border-left: none;
 }
 
-button {
+
+.down_button {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
     margin-top: 20px;
+}
+
+button {
     padding: 10px;
     background-color: #000;
     color: #fff;
